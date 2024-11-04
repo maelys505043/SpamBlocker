@@ -63,7 +63,7 @@ class SmsReceiver : BroadcastReceiver() {
         val showName = Contacts.findContactByRawNumber(ctx, rawNumber)?.name ?: rawNumber
 
         if (r.shouldBlock) {
-            var importance = NotificationManager.IMPORTANCE_LOW // default: LOW
+            var importance = NotificationManager.IMPORTANCE_NONE // default: LOW
 
             if (r.result == Def.RESULT_BLOCKED_BY_NUMBER || r.result == Def.RESULT_BLOCKED_BY_CONTENT) {
                 importance = r.byRule!!.importance // use per rule notification type
