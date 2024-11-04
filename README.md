@@ -1,4 +1,5 @@
-# SpamBlocker
+# This is not the real SpamBlocker
+Edited for a single change to the non-contact blocking function.
 Android Call/SMS blocker. (Android 10+)
 
 <img src="https://github.com/aj3423/SpamBlocker/assets/4710875/9d44afe7-2524-4b34-8bf3-ba285200bb5c" height="90">  [<img src="https://github.com/user-attachments/assets/8757c78c-b0d5-4b8a-9adb-934d8a758e9e"
